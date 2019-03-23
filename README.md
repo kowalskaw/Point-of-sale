@@ -1,6 +1,5 @@
 # Point of sale
-JDK 1.8
-Java apllication simulating point of sale.
+JDK 1.8. Java apllication simulating point of sale.
 
 # Functionality
 Test database consists of 4 products with the following barcodes:
