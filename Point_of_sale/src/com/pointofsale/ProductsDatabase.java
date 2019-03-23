@@ -30,8 +30,8 @@ class ProductsDatabase {
 
     //checks if given barcode is valid or not
     static boolean checkIfValid(Integer barcode){
-        Pattern patt = Pattern.compile("[0-9]{3}");
-        Matcher match = patt.matcher(barcode.toString());
+        Pattern pattern = Pattern.compile("[0-9]{3}");
+        Matcher match = pattern.matcher(barcode.toString());
         return match.matches();
     }
 
